@@ -1,7 +1,7 @@
 <?php
 // Establecer conexión con la base de datos
 $host = "localhost";
-$username = "pramos12";
+$username = "a_20197637";
 $password = "r3vsF7q7br3";
 $dbname = "a_20197637";
 
@@ -12,4 +12,5 @@ $conn = mysqli_connect($host, $username, $password, $dbname);
 if (!$conn) {
     die("Conexión fallida: " . mysqli_connect_error());
 }
+echo "Conexión exitosa";
 ?>
